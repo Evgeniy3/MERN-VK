@@ -1,0 +1,37 @@
+.users {
+    padding: 75px 0 0 212px;
+    width: 600px;
+    
+    &__container {
+        background-color: #222222;
+        border: 1px solid #424242;
+        border-radius: 15px;
+        min-height: 227px;
+    }
+    &__title {
+        text-align: left;
+        font-size: 16px;
+        margin: 15px;
+        color: #858484;
+    }
+    &__search {
+        position: relative;
+        width: 600px;
+    }
+    &__input {
+        width: 540px;
+        padding: 10px 15px;
+        outline: none;
+        border: 1px solid #424242;
+        background-color: #222222;
+        border-radius: 5px;
+        color: white;
+        margin-left: 15px;
+        font-style: 14px;
+    }
+    &__svg {
+        position: absolute;
+        right: 10px;
+        top: 9px;
+    }
+}

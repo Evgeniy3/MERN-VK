@@ -1,0 +1,26 @@
+.posts {
+    padding: 45px 0 0 212px;
+    width: 1005px;
+    display: flex;
+    justify-content: space-between;
+    &__popular {
+        position: fixed;
+        right: 330px;
+        height: 632px;
+        background-color: #222222;
+        border: 1px solid #424242;
+        border-radius: 15px;
+        margin: 30px 0 0;
+        width: 385px;  
+    }
+    &__title {
+        font-size: 14px;
+        padding: 12px;
+        border-bottom: 1px solid #424242;
+    }
+    &__empty {
+        padding: 75px 0 0 500px;
+        color: #bebebe;
+    }
+}
+

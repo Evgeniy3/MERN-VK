@@ -1,0 +1,50 @@
+.form {
+    padding: 110px 0 0 500px;
+    width: 250px;
+    text-align: center;
+    &__lb {
+        height: 45px;
+        display: block;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    &__input {
+        font-size: 20px;
+        width: 100%;
+        height: 25px;
+        padding: 5px;
+        display: block;
+        outline: none;
+        border-radius: 10px;
+        background-color: #5a5959;
+        border: none;
+        color: white;
+    }
+    &__btn {
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: none;
+        background-color: #393939;
+        color: white;
+        cursor: pointer;
+        &:hover{
+            background-color: #424242;
+        }
+    }
+    &__error {
+        font-size: 13px;
+        margin: 5px 0 0 0;
+        color: rgb(233, 122, 122);
+    }
+    &__link {
+        display: block;
+        margin-top: 10px;
+        color: #525151;
+        text-decoration: none;
+        &:hover{
+            color: #999898;
+        }
+    }
+}

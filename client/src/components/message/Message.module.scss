@@ -1,0 +1,90 @@
+.message {
+    &__name {
+        padding: 10px;
+        border-bottom: 1px solid #424242;
+        margin: 0;
+        color: #d4d3d3;
+    }
+
+    &__textblock {
+        height: 700px;
+        padding: 10px;
+    }
+
+    &__create {
+        display: flex;
+        align-items: center;
+        width: 722px;
+        height: 100%;
+        position: relative;
+        bottom: 0;
+        background-color: #292929;
+        border-top: 1px solid #424242;
+    }
+
+    &__smile {
+        position: absolute;
+        top: 19px;
+        right: 85px;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+
+    &__picker {
+        position: absolute;
+    }
+
+    &__input {
+        width: 600px;
+        color: rgb(204, 202, 202);
+        padding: 10px 15px;
+        margin: 10px;
+        border: 1px solid #5c5c5c;
+        border-radius: 10px;
+        background-color: transparent;
+        outline: none;
+    }
+
+    &__btn {
+        outline: none;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+    }
+
+    &__img {
+        width: 30px;
+        height: 30px;
+    }
+
+    &__emoji {
+        position: absolute;
+        bottom: 52px;
+        right: 80px;
+    }
+}
+
+.text {
+    display: flex;
+    margin-bottom: 20px;
+    &__img {
+        width: 40px;
+        height: 40px;
+        background-color: #424242;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    &__block {
+        width: 600px;
+    }
+    &__name {
+        margin: 0;
+        color: #62aaeb;
+    }
+    &__text{
+        margin: 5px 0 0 0;
+        font-size: 14px;
+        letter-spacing: 1.2px;
+    }
+}

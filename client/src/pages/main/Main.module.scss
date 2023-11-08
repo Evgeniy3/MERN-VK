@@ -1,0 +1,168 @@
+.main {
+    padding: 75px 0 0 212px;
+    width: 1005px;
+    &__blocktop {
+        position: relative;
+        width: 100%;
+        height: 390px;
+        background-color: #2b2f3e;
+        border-radius: 15px;
+        border: 1px solid #424242;
+    }
+    &__img {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        z-index: 10;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    &__avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    &__statusOnline {
+        position: absolute;
+        right: 9px;
+        bottom: 20px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #424242;
+        border-radius: 50%;
+        background-color: rgb(4, 206, 4);
+    }
+    &__statusOffline {
+        position: absolute;
+        right: 9px;
+        bottom: 20px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #424242;
+        border-radius: 50%;
+        background-color: rgb(168, 168, 168);
+    }
+    &__infoblock {
+        position: absolute;
+        left: 1px;
+        bottom: 1px;
+        width: 99.8%;
+        height: 115px;
+        border-radius: 15px;
+        background-color: #222222;
+    }
+    &__infoname {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 10px 5px 200px;
+    }
+    &__name {
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    &__editbtn {
+        padding: 7px 18px;
+        border: none;
+        border-radius: 10px;
+        background-color: #393939;
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+        &:hover{
+            background-color: #424242;
+        }
+    }
+    &__info {
+        display: flex;
+        align-items: center;
+        margin: 5px 10px 0px 200px;
+        color: #525151;
+        >p {
+            padding: 0 15px 0 0;
+        }
+    }
+    &__blockbottom{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    &__posts{
+        width: 600px;
+    }
+    &__postshead{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        background-color: #222222;
+        border: 1px solid #424242;
+        border-radius: 15px 15px 0 0;
+    }
+    &__postemty {
+        font-size: 14px;
+        color: #bbbbbb;
+        text-align: center;
+        padding: 45px 0 15px;
+        width: 600px;
+        height: 80px;
+        background-color: #222222;
+        border: 1px solid #424242;
+        border-radius: 0 0 15px 15px;
+    }
+    &__friends{
+        width: 385px;  
+    }
+    &__subscribers{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 15px;
+        background-color: #222222;
+        border: 1px solid #424242;
+        border-radius: 15px;
+        
+    }
+    &__subblock {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__subtitle{
+        margin: 0;
+        font-size: 14px;
+        padding: 12px;
+        border-bottom: 1px solid #424242;
+        > span {
+            color: #9e9e9e;
+        }
+    }
+    &__subemty{
+        text-align: center;
+        padding-top: 100px;
+        font-size: 14px;
+        color: #6d6c6c;
+    }
+    &__posttitle {
+        padding: 8px;
+        color: #6d6c6c;
+    }
+    &__postsearch {
+        width: 250px;
+        outline: none;
+        color: white;
+        margin-right: 10px;
+        padding: 5px;
+        background-color: transparent;
+        box-shadow: none;
+        border-right: none;
+        border-bottom: 1px solid #424242;
+    }
+    &__searchsvg{
+        position: absolute;
+        right: 5px;
+        top: 20px;
+    }
+}

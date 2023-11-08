@@ -1,0 +1,67 @@
+.postcreate {
+    padding: 75px 0 0 212px;
+    width: 600px;
+    &__form{
+        background-color: #2b2f3e;
+        border-radius: 15px;
+        border: 1px solid #424242;
+        padding: 10px;
+    }
+    &__img {
+        width: 97%;
+        padding: 10px;
+    }
+    &__file {
+        position: relative;
+        width: 100%;
+        display: block;
+        visibility: hidden;
+        height: 50px;
+        margin-bottom: 20px ;
+        &::after {
+            content: '';
+            position: absolute;
+            visibility: visible;
+            cursor: pointer;
+            right: 49%;
+            bottom: 8%;
+            width: 40px;
+            height: 40px;
+            background-color: #424242;
+            border: 1px solid #424242;
+            border-radius: 15px;
+            background-image: url(../../assets/img/upload.png);
+            background-size: 65%;
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+    }
+    &__text {
+        width: 555px;
+        outline: none;
+        padding: 10px;
+        margin-bottom: 10px;
+        resize: none;
+        border-radius: 15px;
+        color: #bbb9b9;
+        background-color: #424242;
+        border: 1px solid #424242;
+    }
+    &__btnblock {
+        text-align: center;
+    }
+    &__btn {
+        padding: 7px 18px;
+        border: none;
+        border-radius: 10px;
+        background-color: #424242;
+        font-size: 15px;
+        color: white;
+        margin-right: 10px;
+        cursor: pointer;
+        &:hover{
+            background-color: #808080;
+        }
+    }
+}

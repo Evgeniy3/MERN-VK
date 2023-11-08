@@ -1,0 +1,61 @@
+.user {
+    width: 90%;
+    position: relative;
+    display: flex;
+    padding: 35px 15px;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 565px;
+        height: 1px;
+        background-color: #424242;
+    }
+    cursor: pointer;
+    &__img {
+        width: 80px;
+        height: 80px;
+        border: 1px solid #424242;
+        border-radius: 50%;
+        background-color: #424242;
+    }
+    &__info {
+        margin-left: 20px;
+    }
+    &__title {
+        color: white;
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+    &__dopinfo {
+        display: flex;
+        color: #a3a3a3;
+    }
+    &__city {
+        margin: 0;
+        margin-right: 10px;
+        padding-right: 8px;
+        border-right: 1px solid #424242;
+    }
+    &__age {
+        margin: 0;
+        margin-right: 10px;
+        padding-right: 8px;
+        border-right: 1px solid #424242;
+    }
+    &__status {
+        margin: 0;
+    }
+    &__media{
+        display: flex;
+        margin-top: 10px;
+        >p{
+            margin: 0 20px 0 0;
+        }
+    }
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

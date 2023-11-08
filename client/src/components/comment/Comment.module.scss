@@ -1,0 +1,38 @@
+.comment {
+    max-width: 600px;
+    margin-top: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #424242;
+    &__img{
+        border: 1px solid  #424242;
+        background-color: #424242;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+    }
+    &__info {
+        margin-left: 10px;
+    }
+    &__date {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__name {
+        margin: 0;
+        font-size: 15px;
+    }
+    &__time {
+        margin: 0;
+        font-size: 12px;
+        color: #6d6c6c;
+    }
+    &__text {
+        word-break: break-all;
+        color: #c0bfbf;
+        font-size: 15px;
+        margin: 5px 0 0;
+        width: 500px;
+    }
+}
+

@@ -1,0 +1,20 @@
+.sub {
+    text-align: center;
+    margin: 20px 18px 25px;
+    cursor: pointer;
+    &:hover{
+        >.sub__name{
+            color: white;
+        }
+    }
+    &__img{
+        width: 60px;
+        height: 60px;
+        background-color: gray;
+        border-radius: 50%;
+    }
+    &__name{
+        font-size: 13px;
+        color: rgb(207, 207, 207);
+    }
+}

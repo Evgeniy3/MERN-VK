@@ -1,0 +1,212 @@
+.postedit {
+    transform: translateX(-400px);
+}
+
+.post {
+    position: relative;
+    margin: 50px auto;
+    width: 580px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #424242;
+    color: white;
+    background-color: #222222;
+    transition: 0.3s linear;
+    
+    &__modal {
+        position: fixed;
+       left: 0;
+       top: 0;
+        z-index: 101;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(30px);
+        overflow-y: scroll;
+    }
+    &__blockimg {
+        text-align: center;
+    }
+
+    &__img {
+        max-width: 580px;
+        max-height: 600px;
+        border-radius: 10px;
+    }
+
+    &__createblock {
+        display: flex;
+        align-items: center;
+    }
+
+    &__create {
+        margin-left: 5px;
+    }
+
+    &__createimg {
+        width: 50px;
+        height: 50px;
+        background-color: gray;
+        border: 1px solid #424242;
+        border-radius: 50%;
+    }
+
+    &__author {
+        margin: 0 0 0 5px;
+        color: #62aaeb;
+    }
+
+    &__date {
+        margin: 10px 0 0 5px;
+        font-size: 14px;
+        color: #6d6c6c;
+    }
+
+    &__description {
+        margin: 10px 0 20px;
+    }
+
+    &__infoblock {
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__like{
+        display: flex;
+        margin-top: 5px;
+        >.post__info {
+            width: 45px;
+            height: 33px;
+            margin-right: 10px;
+            padding: 0px 10px;
+            border-radius: 20px;
+            background-color: #333333;
+            >p{
+                margin-left: 6px;
+               }
+        }
+    }
+    &__likeimg {
+        width: 20px;
+
+    }
+    &__info {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        >p {
+            padding: 0 3px 0;
+            font-size: 14px;
+            color: #6d6c6c;
+        }
+    }
+}
+
+.btn {
+    position: absolute;
+    right: -50px;
+    top: 0;
+    &__close {
+        border: none;
+        padding: 10px;
+        background-color: transparent;
+        transition: 0.3s linear;
+        cursor: pointer;
+
+        &:hover {
+            transform: rotate(45deg);
+        }
+    }
+
+    &__edit {
+        border: none;
+        padding: 10px;
+        background-color: transparent;
+        display: block;
+        transition: 0.3s linear;
+        cursor: pointer;
+
+        &:hover {
+            transform: rotate(10deg);
+        }
+    }
+
+    &__remove {
+        border: none;
+        padding: 10px;
+        background-color: transparent;
+        display: block;
+        cursor: pointer;
+        transition: 0.3s linear;
+        &:hover {
+            transform: translateY(6px);
+        }
+    }
+}
+
+.comments {
+    width: 100%;
+    min-height: 180px;
+    color: white;
+    border-top: 1px solid #424242;
+    background-color: #222222;
+    &__input {
+        padding: 8px 20px;
+        width: 80%;
+        height: 30px;
+        outline: none;
+        border: 1px solid #424242;
+        background-color: #222222;
+        border-radius: 10px;
+        color: white;
+    }
+
+    &__enter {
+        display: flex;
+        position: relative;
+        margin-top: 10px;
+        width: 600px;
+    }
+
+    &__btn {
+        padding: 8px 0 0 5px;
+        cursor: pointer;
+    }
+
+    &__img {
+        width: 40px;
+        height: 40px;
+    }
+
+    &__block {
+        overflow-y: scroll;
+        max-height: 600px;
+        scrollbar-width: 10px;
+
+        &::-webkit-scrollbar {
+            height: 10px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+        }
+    }
+    &__empty {
+        color: #b8b8b8;
+        text-align: center;
+        padding: 40px 0;
+    }
+    &__smile {
+        position: absolute;
+        top: 12px;
+        right: 85px;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+    &__emoji {
+        position: absolute;
+        right: 78px;
+        bottom: 50px;
+    }
+}

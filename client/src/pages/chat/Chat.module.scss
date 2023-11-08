@@ -1,0 +1,38 @@
+.chat {
+    width: 900px;
+    height: 840px;
+    padding: 75px 0 0 212px;
+    display: flex;
+    &__title{
+        margin: 0;
+        border-bottom: 1px solid #424242;
+        padding: 10px;
+        color: #d4d3d3;
+    }
+    &__channels {
+        width: 300px;
+        border: 1px solid #424242;
+        padding: 10px 0;
+        border-radius: 10px 0 0 10px;
+        background-color: #222222;
+    }
+    &__messages{
+        width: 722px;
+        border: 1px solid #424242;
+        padding: 10px 0;
+        border-radius: 0 10px 10px 0;
+        background-color: #222222;
+    }
+    &__mesEmpty {
+        width: 725px;
+        margin-top: 200px;
+        text-align: center;
+        color: #adadad;
+    }
+    &__channelEmpty{
+        width: 282px;
+        color: #adadad;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
